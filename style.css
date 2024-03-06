@@ -1,0 +1,664 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+img {
+  height: 500px;
+}
+div img {
+  height: 233px;
+}
+/****************navbar ***************/
+header {
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: auto;
+}
+.title {
+  color: lightskyblue;
+  padding-left: 20px;
+  font-size: 26px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 40px;
+}
+nav ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+}
+.icon {
+  margin-right: 10px;
+}
+nav ul li a:hover {
+  color: #f9004d;
+}
+/************ premier section <home> *************/
+#home {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.imghome {
+  height: 300px;
+  padding-right: 150px;
+}
+.h3 {
+  padding-left: 40px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+.h1 {
+  padding-left: 50px;
+  margin-bottom: 20px;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  color: lightskyblue;
+}
+.h5 {
+  padding-left: 40px;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+}
+.btn {
+  margin-left: 35px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: gray;
+  border-radius: 5px;
+  background-color: lightblue;
+  border: 1px solid lightblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.link1 {
+  padding-left: 40px;
+  margin-top: 30px;
+  color: white;
+  font-size: 30px;
+}
+.link2 {
+  padding-left: 40px;
+  margin-top: 30px;
+  color: white;
+  font-size: 30px;
+}
+.link3 {
+  padding-left: 40px;
+  margin-top: 30px;
+  color: white;
+  font-size: 30px;
+}
+.btn:hover {
+  border: 1px solid lightblue;
+  background-color: transparent;
+  color: gray;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 10px lightblue;
+}
+.link1:hover {
+  color: blue;
+  transform: rotate(360deg);
+  transition: 1s ease 0s;
+}
+.link2:hover {
+  color: gray;
+  transform: rotate(360deg);
+  transition: 1s ease 0s;
+}
+.link3:hover {
+  color: red;
+  transform: rotate(360deg);
+  transition: 1s ease 0s;
+}
+/**************deuxiéme section <about> ************/
+#about {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.imgabout {
+  height: 400px;
+  padding-right: 50px;
+}
+.ah1 {
+  padding-left: 500px;
+  margin-bottom: 45px;
+  text-transform: uppercase;
+  color: cyan;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.ah4 {
+  padding-left: 40px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.ah5 {
+  padding-left: 20px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+}
+.ap1 {
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+/*************** troisiéme section <education>************/
+#education {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.imgeducation {
+  padding-top: 20px;
+  padding-right: 20px;
+  height: 300px;
+}
+.EST {
+  margin-bottom: 80px;
+}
+.school {
+  text-transform: uppercase;
+  margin-left: 500px;
+  margin-bottom: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: cyan;
+}
+.description {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.linkest {
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid lightblue;
+  padding: 10px 20px 10px 20px;
+  background-color: lightblue;
+  color: gray;
+  border-radius: 4px;
+}
+.linkest:hover {
+  background: transparent;
+  box-shadow: 0px 0px 10px 10px lightblue;
+}
+.span {
+  font-size: xx-small;
+  font-weight: bolder;
+  color: goldenrod;
+  font-family: "Times New Roman", Times, serif;
+}
+/***************** 4éme section <skills> ************/
+#skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+.myskills {
+  color: cyan;
+  text-transform: uppercase;
+  margin-bottom: 430px;
+  margin-right: 140px;
+  padding-left: 0px;
+  margin-left: 60px;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.skills {
+  padding-right: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  max-width: 500px;
+  padding: 0 15px;
+  margin-right: 40px;
+}
+.skill-name {
+  padding-left: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+.language {
+  margin-right: 15px;
+}
+.skill-bar {
+  height: 14px;
+  background: #353b48;
+  border-radius: 3px;
+}
+.skill-per {
+  height: 14px;
+  background: palegreen;
+  border-radius: 3px;
+  position: relative;
+  animation: fillbars 2s linear infinite;
+}
+.skill-per::before {
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background: lightblue;
+  color: #000;
+  border-radius: 4px;
+  font-size: 12px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+.skill-per::after {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background: lightblue;
+  top: -20px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+@keyframes fillbars {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/*********** les photos *************/
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  height: 90vh;
+}
+.box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  bottom: 100px;
+  animation: animate 20s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: perspective(1600px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(1600px) rotateY(360deg);
+  }
+}
+.box span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 60deg)) translateZ(400px);
+}
+.box span .logo {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  -webkit-box-reflect: below 2px
+    linear-gradient(transparent, transparent, #0004);
+}
+.logo {
+  width: 100%;
+}
+.box:hover {
+  cursor: pointer;
+}
+/**************** 5éme section <contact> ***************/
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000;
+}
+.contactme {
+  margin-left: 50px;
+}
+.ss {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 190px;
+  padding-left: 260px;
+  color: cyan;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+}
+form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+form input {
+  margin-bottom: 10px;
+  text-decoration: none;
+  padding-left: 45px;
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #f9004d;
+  font-size: 16px;
+}
+input {
+  outline: 0;
+  border: 0;
+  color: #f9004d;
+  background: transparent;
+  font-size: 16px;
+  animation: input 1s linear infinite;
+}
+@keyframes input {
+  0% {
+    border-bottom: 2px solid #5a9e7c;
+  }
+  10% {
+    border-bottom: 2px solid #ff8c00;
+  }
+  20% {
+    border-bottom: 2px solid #ff00b3;
+  }
+  30% {
+    border-bottom: 2px solid #b7fb19;
+  }
+  40% {
+    border-bottom: 2px solid #9c3e04;
+  }
+  60% {
+    border-bottom: 2px solid #ff002f;
+  }
+  70% {
+    border-bottom: 2px solid #35d7ff;
+  }
+  80% {
+    border-bottom: 2px solid #00a669;
+  }
+  90% {
+    border-bottom: 2px solid #8300f6;
+  }
+  100% {
+    border-bottom: 2px solid #bc9d4f;
+  }
+}
+input::placeholder {
+  color: white;
+  text-transform: uppercase;
+}
+input:hover {
+  color: white;
+  cursor: pointer;
+}
+.social {
+  margin-left: 500px;
+}
+.social1 {
+  padding-bottom: 100px;
+  margin-left: 20px;
+  font-size: 30px;
+  color: #0841f9db;
+}
+.social1:hover {
+  transform: scale(1.4);
+}
+.social2 {
+  padding-bottom: 100px;
+  margin-left: 20px;
+  font-size: 30px;
+  color: green;
+}
+.social2:hover {
+  transform: scale(1.5);
+}
+.social3 {
+  padding-bottom: 100px;
+  margin-left: 20px;
+  font-size: 30px;
+  color: #f9004d;
+}
+.social3:hover {
+  transform: scale(1.4);
+}
+.social4 {
+  padding-bottom: 100px;
+  margin-left: 20px;
+  font-size: 30px;
+  color: aquamarine;
+}
+.social4:hover {
+  transform: scale(1.4);
+}
+form .textarea {
+  margin-bottom: 30px;
+  text-decoration: none;
+  padding-left: 60px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+.textarea {
+  margin-bottom: 150px;
+  outline: 0;
+  margin-top: 40px;
+  background-color: transparent;
+  border: #f9004d 2px solid;
+  color: #f9004d;
+  font-size: 20px;
+  animation: textarea 2s linear infinite;
+}
+@keyframes textarea {
+  0% {
+    border-bottom: 2px solid springgreen;
+    border-top: 2px solid violet;
+    border-left: 2px solid #00d9ff;
+    border-right: 2px solid #f81900;
+  }
+  50% {
+    border-bottom: 2px solid salmon;
+    border-top: 2px solid gold;
+    border-left: 2px solid yellowgreen;
+    border-right: 2px solid grey;
+  }
+  100% {
+    border-bottom: 2px solid brown;
+    border-top: 2px solid aquamarine;
+    border-left: 2px solid teal;
+    border-right: 2px solid olivedrab;
+  }
+}
+.textarea::placeholder {
+  color: white;
+}
+.send {
+  margin-left: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: aquamarine;
+  color: black;
+}
+.send:hover {
+  background-color: transparent;
+  color: white;
+  box-shadow: 0px 0px 20px 10px grey;
+}
+/********** 6éme section <help> ***********/
+#help {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+  height: 55vh;
+}
+.pp {
+  font-size: 18px;
+}
+.ppp {
+  text-transform: uppercase;
+  color: cadetblue;
+}
+.ppp1 {
+  text-transform: uppercase;
+  color: cadetblue;
+}
+.ppp2 {
+  text-transform: uppercase;
+  color: cadetblue;
+}
+.ppp3 {
+  text-transform: uppercase;
+  color: cadetblue;
+}
+.addresse {
+  color: white;
+  text-decoration: none;
+}
+.divv1 {
+  margin-left: 70px;
+}
+.divv11 {
+  margin-bottom: 60px;
+  margin-left: 40px;
+  font-size: 26px;
+  color: cyan;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.div2 {
+  margin-right: 100px;
+  margin-top: 60px;
+}
+.divv2 {
+  margin-bottom: 10px;
+  margin-right: 40px;
+  color: cyan;
+  font-size: 26px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.fwit {
+  display: grid;
+  justify-content: start;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.f1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #0841f9db;
+  cursor: pointer;
+  font-size: 30px;
+}
+.f1:hover {
+  transform: scale(1.6);
+}
+.w1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: green;
+  cursor: pointer;
+  font-size: 30px;
+}
+.w1:hover {
+  transform: scale(1.6);
+}
+.i1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #f9004d;
+  cursor: pointer;
+  font-size: 30px;
+}
+.i1:hover {
+  transform: scale(1.6);
+}
+.x1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: aquamarine;
+  cursor: pointer;
+  font-size: 30px;
+}
+.x1:hover {
+  transform: scale(1.6);
+}
+span .btnc {
+  text-decoration: none;
+  margin-right: 160px;
+  color: gray;
+  border: 1px solid lightblue;
+  background: lightblue;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+}
+span .btnc:hover {
+  box-shadow: 0px 0px 10px 10px lightblue;
+  background: transparent;
+}
+/*********** footer***********/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 20vh;
+}
+.nameab {
+  color: #f9004d;
+}
+.barcelona {
+  height: 30px;
+  margin-left: 10px;
+}
+.raja {
+  height: 40px;
+  margin-left: 10px;
+}
